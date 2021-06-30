@@ -1,0 +1,22 @@
+CRITICAL - 2021-06-30 13:13:43 --> 22 : The requested URL returned error: 404 Not Found
+#0 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhos...')
+#3 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhos...', Array)
+#4 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(23): CodeIgniter\HTTP\CURLRequest->get('primer_nombre')
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#7 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-30 13:13:49 --> 22 : The requested URL returned error: 404 Not Found
+#0 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhos...')
+#3 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhos...', Array)
+#4 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(23): CodeIgniter\HTTP\CURLRequest->get('primer_nombre')
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#7 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

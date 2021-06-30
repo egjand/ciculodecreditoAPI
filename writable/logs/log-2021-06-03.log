@@ -1,0 +1,38 @@
+CRITICAL - 2021-06-03 16:19:38 --> There is no data to insert.
+#0 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\Model.php(679): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\app\Controllers\Products.php(40): CodeIgniter\Model->insert(NULL)
+#2 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(914): App\Controllers\Products->create()
+#3 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-03 16:20:41 --> There is no data to insert.
+#0 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\Model.php(679): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\app\Controllers\Products.php(40): CodeIgniter\Model->insert(NULL)
+#2 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(914): App\Controllers\Products->create()
+#3 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-03 16:20:48 --> There is no data to insert.
+#0 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\Model.php(679): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\app\Controllers\Products.php(40): CodeIgniter\Model->insert(NULL)
+#2 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(914): App\Controllers\Products->create()
+#3 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#4 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-03 16:27:01 --> Argument 2 passed to App\Controllers\Products::respondCreated() must be of the type string, array given, called in C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\app\Controllers\Products.php on line 50
+#0 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\app\Controllers\Products.php(50): App\Controllers\Products->respondCreated(Array, Array)
+#1 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(914): App\Controllers\Products->create()
+#2 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-03 16:27:20 --> Argument 2 passed to App\Controllers\Products::respondCreated() must be of the type string, array given, called in C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\app\Controllers\Products.php on line 50
+#0 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\app\Controllers\Products.php(50): App\Controllers\Products->respondCreated(Array, Array)
+#1 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(914): App\Controllers\Products->create()
+#2 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\RESTful-API-CodeIgniter-4-master\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

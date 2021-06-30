@@ -1,0 +1,27 @@
+CRITICAL - 2021-06-07 13:34:20 --> not_in_list is not a valid rule.
+#0 C:\xampp\htdocs\creditos\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('not_in_list')
+#1 C:\xampp\htdocs\creditos\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('sexo', 'sexo', 'masculino', Array, Array)
+#2 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(58): CodeIgniter\Validation\Validation->run(Array, 'consultaValidat...')
+#3 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->create()
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-07 13:35:09 --> not_in_list is not a valid rule.
+#0 C:\xampp\htdocs\creditos\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('not_in_list')
+#1 C:\xampp\htdocs\creditos\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('sexo', 'sexo', 'masculino', Array, Array)
+#2 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(58): CodeIgniter\Validation\Validation->run(Array, 'consultaValidat...')
+#3 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->create()
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-07 13:35:19 --> not_in_list is not a valid rule.
+#0 C:\xampp\htdocs\creditos\system\Validation\Validation.php(302): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('not_in_list')
+#1 C:\xampp\htdocs\creditos\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('sexo', 'sexo', 'masculino', Array, Array)
+#2 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(58): CodeIgniter\Validation\Validation->run(Array, 'consultaValidat...')
+#3 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->create()
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

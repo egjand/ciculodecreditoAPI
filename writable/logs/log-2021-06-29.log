@@ -1,0 +1,183 @@
+CRITICAL - 2021-06-29 12:16:42 --> Argument 4 passed to CodeIgniter\HTTP\CURLRequest::__construct() must be of the type array, null given, called in C:\xampp\htdocs\creditos\app\Controllers\Consulta.php on line 22
+#0 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(22): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), NULL)
+#1 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#2 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#3 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 12:16:43 --> Argument 4 passed to CodeIgniter\HTTP\CURLRequest::__construct() must be of the type array, null given, called in C:\xampp\htdocs\creditos\app\Controllers\Consulta.php on line 22
+#0 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(22): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), NULL)
+#1 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#2 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#3 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 12:17:13 --> Argument 4 passed to CodeIgniter\HTTP\CURLRequest::__construct() must be of the type array, null given, called in C:\xampp\htdocs\creditos\app\Controllers\Consulta.php on line 21
+#0 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(21): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), NULL)
+#1 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#2 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#3 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-29 13:26:48 --> 22 : The requested URL returned error: 401
+#0 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.git...')
+#3 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(23): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.git...', Array)
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:27:32 --> 22 : The requested URL returned error: 401
+#0 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.git...')
+#3 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(23): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.git...', Array)
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:27:42 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:28:17 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:29:01 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:29:02 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:29:16 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:29:17 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:29:56 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:29:57 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:30:47 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:30:48 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\creditos\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:32:07 --> 22 : The requested URL returned error: 401
+#0 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.git...')
+#3 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(22): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.git...', Array)
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:32:20 --> 22 : The requested URL returned error: 401
+#0 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.git...')
+#3 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(22): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.git...', Array)
+#4 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-06-29 13:51:49 --> 22 : The requested URL returned error: 404 
+#0 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('get', 'https://example...')
+#3 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request('get', 'https://example...', Array)
+#4 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(23): CodeIgniter\HTTP\CURLRequest->get('primer_nombre')
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#7 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-29 13:52:13 --> 22 : The requested URL returned error: 404 Not Found
+#0 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(821): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested U...')
+#1 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(449): CodeIgniter\HTTP\CURLRequest->sendRequest(Array)
+#2 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(158): CodeIgniter\HTTP\CURLRequest->send('get', 'http://localhos...')
+#3 C:\xampp\htdocs\creditos\system\HTTP\CURLRequest.php(175): CodeIgniter\HTTP\CURLRequest->request('get', 'http://localhos...', Array)
+#4 C:\xampp\htdocs\creditos\app\Controllers\Consulta.php(23): CodeIgniter\HTTP\CURLRequest->get('primer_nombre')
+#5 C:\xampp\htdocs\creditos\system\CodeIgniter.php(914): App\Controllers\Consulta->index()
+#6 C:\xampp\htdocs\creditos\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta))
+#7 C:\xampp\htdocs\creditos\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\creditos\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
