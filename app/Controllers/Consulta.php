@@ -17,7 +17,7 @@ class Consulta extends ResourceController
     {
         $model = new ConsultaModel();
         $data = $model->findAll();
-       
+
         if (!empty($data)) {
             $respuesta = [
                 'status' => 200,
@@ -54,6 +54,49 @@ class Consulta extends ResourceController
     {
         $model = new ConsultaModel();
         $data = $this->request->getRawInput();
+        $curl = curl_init();
+        
+        curl_setopt_array($curl, array(
+          CURLOPT_URL => 'https://services.circulodecredito.com.mx/sandbox/v2/rcc',
+          CURLOPT_RETURNTRANSFER => true,
+          CURLOPT_ENCODING => '',
+          CURLOPT_MAXREDIRS => 10,
+          CURLOPT_TIMEOUT => 0,
+          CURLOPT_FOLLOWLOCATION => true,
+          CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+          CURLOPT_CUSTOMREQUEST => 'POST',
+          CURLOPT_POSTFIELDS =>'{
+            $data["rfc"],
+            $data["primer_nombre"],
+            $data["segundo_nombre"],
+            $data["apellido_paterno"],
+            $data["apellido_materno"],
+            $data["sexo"],
+            $data["estado_civil"],
+            $data["fecha_nacimiento"],
+            $data["calle"],
+            $data["numero_exterior"],
+            $data["numero_interior"],
+            $data["codigo_postal",],
+            $data["telefono_cel"],
+            $data["colonia"],
+            $data["municipio"],
+            $data["ciudad"],
+            $data["estado"]
+          }
+        }',
+          CURLOPT_HTTPHEADER => array(
+            'Content-Type: application/json',
+            'x-api-key: 5rGqQ93CxD2APeVXeO3K3D2tUDGNSPjQ',
+            'Cookie: incap_ses_1061_2077528=/v01MiJ38kJ7MiWxUG65Donm3GAAAAAAUa5/GWGrbAMpDvIV1sEbQw==; nlbi_2077528=U167A6E9DQQI4XBpGp8RlAAAAABxJIqkR/xRfQGVzn6IckIt; visid_incap_1979802=y79ki+1uSnaNjwsGDBGWXZlKuWAAAAAAQUIPAAAAAACPwa4uJwQdJSqC5/TImSvm; visid_incap_2077528=P0Zx+wrzTu+rETU2tNMeYuNLuWAAAAAAQUIPAAAAAADhs1iOoheF8mpRUSXRMUsg'
+          ),
+        ));
+        
+        $response = curl_exec($curl);
+        
+        curl_close($curl);
+        echo $response;
+        
         $validation =  \Config\Services::validation();
 
         if ($validation->run($data, 'consultaValidation')) {

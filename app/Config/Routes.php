@@ -34,6 +34,7 @@ $routes->get('/consulta', 'Consulta::index');
 $routes->get('/consulta/(:num)', 'Consulta::show');
 $routes->post('/consulta', 'Consulta::create');
 $routes->put('/consulta/(:num)', 'Consulta::update');
+$routes->get('/reporte','reportecsv');
 
 $routes->resource('products');
 /**
